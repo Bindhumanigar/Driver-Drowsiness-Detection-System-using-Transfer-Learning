@@ -13,13 +13,16 @@ The Driver Drowsiness Detection System aims to enhance road safety by monitoring
 
 ## Implementation Steps
 1. **Data Collection**: Collect images or video frames of drivers exhibiting various states (awake, drowsy, yawning, etc.).
-2. **Data Preprocessing**: Resize images, normalize pixel values, and augment the dataset.
-3. **Transfer Learning Setup**: Choose a pre-trained CNN model and replace the top layers with a new classifier for drowsiness detection. Fine-tune the model.
-4. **Model Training**: Train the model on the dataset, adjusting hyperparameters to optimize performance.
-5. **Integration with Real-time System**: Integrate the trained model into a real-time video processing pipeline using libraries like OpenCV.
-6. **Facial Landmark Detection**: Implement facial landmark detection to extract key facial features.
-7. **Alert Mechanism**: Develop an alert mechanism to activate upon detecting drowsiness.
-8. **Testing and Deployment**: Test the system in various conditions and deploy it in a vehicle environment for real-world evaluation.
+   
+      https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new/data 
+
+3. **Data Preprocessing**: Resize images, normalize pixel values, and augment the dataset.
+4. **Transfer Learning Setup**: Choose a pre-trained CNN model and replace the top layers with a new classifier for drowsiness detection. Fine-tune the model.
+5. **Model Training**: Train the model on the dataset, adjusting hyperparameters to optimize performance.
+6. **Integration with Real-time System**: Integrate the trained model into a real-time video processing pipeline using libraries like OpenCV.
+7. **Facial Landmark Detection**: Implement facial landmark detection to extract key facial features.
+8. **Alert Mechanism**: Develop an alert mechanism to activate upon detecting drowsiness.
+9. **Testing and Deployment**: Test the system in various conditions and deploy it in a vehicle environment for real-world evaluation.
 
 ## Technologies Used
 - **Deep Learning Frameworks**: TensorFlow, Keras, PyTorch
